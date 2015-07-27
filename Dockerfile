@@ -11,7 +11,7 @@ RUN mv composer.phar /usr/bin/composer
 # Install the app
 RUN rm -rf /var/www/*
 ADD . /var/www
-RUN cd /var/www && /usr/bin/composer install
+RUN cd /var/www 
 
 # Configure apache
 RUN a2enmod rewrite
