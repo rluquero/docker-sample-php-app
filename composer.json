@@ -1,0 +1,7 @@
+{
+    "require": {
+         "laravel/framework": "4.0.*",
+          "imagine/imagine": "v0.5.*",
+          "iron-io/iron_mq": "1.4.*"
+    }
+}
